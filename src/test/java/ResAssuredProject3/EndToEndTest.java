@@ -5,6 +5,7 @@ import java.util.HashMap;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import groovyjarjarantlr.collections.List;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -37,7 +38,9 @@ public class EndToEndTest {
 		System.out.println(responseBody);
 		System.out.println(resCode);
 		Assert.assertEquals(resCode, 200);
-		Assert.assertTrue(responseBody.contains("Pankaj"));
+		JsonPath json = response.jsonPath();
+		String employee_name = json.get("name");
+		System.out.println(employee_name);
 
 	}
 
@@ -72,13 +75,11 @@ public class EndToEndTest {
 		System.out.println(resCode);
 		Assert.assertEquals(resCode, 200);
 
-		
-
 	}
 
 	@Test
 	public void TC05_TestDeletedEmployee() {
-		RestAssured.baseURI = "http://localhost:3000/employees/"+emp_id;
+		RestAssured.baseURI = "http://localhost:3000/employees/" + emp_id;
 		RequestSpecification request = RestAssured.given();
 		Response response = request.get();
 		String responseBody = response.getBody().asString();

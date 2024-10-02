@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ResAssuredProject3.EndToEndTest">
+      <class name="ResAssuredProject3.ReqResTest">
         <methods>
-          <include name="TC04_DeleteEmployee"/>
+          <include name="GetSingleEmployee"/>
         </methods>
-      </class> <!-- ResAssuredProject3.EndToEndTest -->
+      </class> <!-- ResAssuredProject3.ReqResTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

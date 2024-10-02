@@ -1,33 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-22T16:11:09Z" name="Default suite" finished-at="2024-09-22T16:11:12Z" duration-ms="2930">
+  <suite started-at="2024-09-26T15:32:52Z" name="Default suite" finished-at="2024-09-26T15:32:54Z" duration-ms="2105">
     <groups>
     </groups>
-    <test started-at="2024-09-22T16:11:09Z" name="Default test" finished-at="2024-09-22T16:11:12Z" duration-ms="2930">
-      <class name="ResAssuredProject3.EndToEndTest">
-        <test-method signature="TC01_GetAllEmployee()[pri:0, instance:ResAssuredProject3.EndToEndTest@106cc338]" started-at="2024-09-22T16:11:09Z" name="TC01_GetAllEmployee" finished-at="2024-09-22T16:11:11Z" duration-ms="1744" status="PASS">
+    <test started-at="2024-09-26T15:32:52Z" name="Default test" finished-at="2024-09-26T15:32:54Z" duration-ms="2105">
+      <class name="ResAssuredProject3.ReqResTest">
+        <test-method signature="PostEmployee()[pri:0, instance:ResAssuredProject3.ReqResTest@63f259c3]" started-at="2024-09-26T15:32:52Z" name="PostEmployee" finished-at="2024-09-26T15:32:54Z" duration-ms="2073" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC01_GetAllEmployee -->
-        <test-method signature="TC02_GetSingleEmployee()[pri:0, instance:ResAssuredProject3.EndToEndTest@106cc338]" started-at="2024-09-22T16:11:11Z" name="TC02_GetSingleEmployee" finished-at="2024-09-22T16:11:11Z" duration-ms="25" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC02_GetSingleEmployee -->
-        <test-method signature="TC03_CreateEmployee()[pri:0, instance:ResAssuredProject3.EndToEndTest@106cc338]" started-at="2024-09-22T16:11:11Z" name="TC03_CreateEmployee" finished-at="2024-09-22T16:11:12Z" duration-ms="1083" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC03_CreateEmployee -->
-        <test-method signature="TC04_DeleteEmployee()[pri:0, instance:ResAssuredProject3.EndToEndTest@106cc338]" started-at="2024-09-22T16:11:12Z" name="TC04_DeleteEmployee" finished-at="2024-09-22T16:11:12Z" duration-ms="21" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC04_DeleteEmployee -->
-        <test-method signature="TC05_TestDeletedEmployee()[pri:0, instance:ResAssuredProject3.EndToEndTest@106cc338]" started-at="2024-09-22T16:11:12Z" name="TC05_TestDeletedEmployee" finished-at="2024-09-22T16:11:12Z" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC05_TestDeletedEmployee -->
-      </class> <!-- ResAssuredProject3.EndToEndTest -->
+        </test-method> <!-- PostEmployee -->
+      </class> <!-- ResAssuredProject3.ReqResTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
